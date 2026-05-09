@@ -1082,7 +1082,7 @@ translate english help_54d07fb2:
     # voice "audio/voices/vika/56.mp3"
     # Vika "Подскажи еще несколько чисел"
     voice "audio/voices/vika/56_en.mp3"
-    Vika "Give me a few more hints"
+    Vika "Give me a few more numbers" 
 
 # game/script.rpy:2645
 translate english help_259381eb:
@@ -1098,7 +1098,7 @@ translate english help_24d39d94:
     # voice "audio/voices/vika/57.mp3"
     # Vika "Ты обещал подсказать несколько чисел"
     voice "audio/voices/vika/57_en.mp3"
-    Vika "You promised to give me a few more hints"
+    Vika "You promised to give me a few more numbers"
 
 # game/script.rpy:2656
 translate english help_ee415c55:
@@ -1430,7 +1430,7 @@ translate english sleep_event3_8b287ddb:
     # voice "audio/voices/vika/77.mp3"
     # Vika "Опять эта девочка, какая-то она слишком капризная."
     voice "audio/voices/vika/77_en.mp3"
-    Vika "Again this"
+    Vika "Again this girl, she's so capricious."
 
 # game/script.rpy:4727
 translate english sleep_event4_29d39d75:
@@ -10369,6 +10369,6 @@ translate english strings:
 
     old "Спасибо вам за то что вдохновляете на такие проекты."
     new "Thank you for inspiring such projects."
-    
+
     old "Живите и дальше так же счастливо."
     new "Live happily ever after."

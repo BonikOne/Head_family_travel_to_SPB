@@ -6322,7 +6322,7 @@ translate english director_menu_359fda80:
     # voice "audio/voices/alina/21.mp3"
     # alina "Потрудитесь найти хоть что-то похожее на нашу разработку"
     voice "audio/voices/alina/21_en.mp3"
-    alina "Just try to find something similar to our development."
+    alina "Please try to find something similar to our development."
 
 # game/script.rpy:10513
 translate english director_menu_69d0f57d:
@@ -6816,7 +6816,7 @@ translate english zvonok_shluhe_f45b4c64:
     # voice "audio/voices/vika/342.mp3"
     # Vika "Пока."
     voice "audio/voices/vika/342_en.mp3"
-    Vika "Bye."
+    Vika "Good bye."
 
 # game/script.rpy:11468
 translate english pay_label_310d7595:
@@ -7048,7 +7048,7 @@ translate english chingis_dialog_545523e7:
     # voice "audio/voices/chingis/2.mp3"
     # chingis "Приуэйт Викэ"
     voice "audio/voices/chingis/2_en.mp3"
-    chingis "Nice to meet you, Vika."
+    chingis "Hello, Vika."
 
 # game/script.rpy:12450
 translate english chingis_menu_b28dcd8e:
@@ -9648,7 +9648,7 @@ translate english predlagayet_poigrat_27c4c50c:
     # voice "audio/voices/shahmatist1/14.mp3"
     # shahmatist1 "На что придется, на всякие мелкие вещи, или на пару рублей. В общем выберешь что забрать."
     voice "audio/voices/shahmatist1/14_en.mp3"
-    shahmatist1 ""
+    shahmatist1 "It’ll depend on all sorts of little things, or just a couple of rubles. Anyway, you’ll choose what to take."
 
 # game/script.rpy:16520
 translate english predlagayet_poigrat_5e2c0ddd:

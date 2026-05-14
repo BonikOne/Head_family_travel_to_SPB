@@ -1,8 +1,8 @@
 ﻿# Определение персонажей игры.
 define Vika = Character('Вика', color="#815f01", image="charecter/Vika/vika") #Лаомедея
-define diller = Character('Диллер', color="#47ff0f") # Nikolay
-define shahmatist1 = Character('Первый шахматист', color="#815f01", image="charecter/shahmatist1/ded") # Vasiliy
-define shahmatist2 = Character('Второй шахматист', color="#815f01", image="charecter/shahmatist2/shahmatist2") # Galway man
+define diller = Character('Диллер', color="#47ff0f") # Умбриель
+define shahmatist1 = Character('Первый шахматист', color="#815f01", image="charecter/shahmatist1/ded") # Шедар
+define shahmatist2 = Character('Второй шахматист', color="#815f01", image="charecter/shahmatist2/shahmatist2") # Садачбия
 define Medsestra = Character('Медсестра', color="#ffffff") # Нахуй не нужна
 define chingis = Character('Чингыс', color="#e5ff00") #Алнилам
 define vitya = Character('Витя', color="#003cff") #Алнилам
@@ -10,23 +10,23 @@ define nobody = Character('Неизвестный', color="#ffffff") # Anna Soko
 define operator = Character('Оператор', color="#ffffff") # Isla Skye
 define nachalnik = Character('Начальник', color="#ffffff") #Альгениб
 define maker = Character('Создатель', color="#dacb00") #Зубенельгенуби
-define ment = Character('Полицейский', color="#dacb00") # Leo Fioravante
-define barmen = Character('Бармен', color="#dacb00") # Boy Advertising: Radio Ads & Audio
-define fishman = Character('Продавец рыбы', color="#dacb00") # Olivier D
-define posetitel = Character('Посетитель', color="#dacb00") # много
+define ment = Character('Полицейский', color="#dacb00") # Расалгети
+define barmen = Character('Бармен', color="#dacb00") # Пульчеррима
+define fishman = Character('Продавец рыбы', color="#dacb00") # Орус
+define posetitel = Character('Посетитель', color="#dacb00") # Коре
 define teacher = Character('Учитель', color="#dacb00", image="charecter/masha/masha") #Деспина 
 define Voice1 = Character('Голос 1', color="#dacb00") # Энцелад
 define Voice2 = Character('Голос 2', color="#dacb00") #Деспина 
 define model = Character('Фотограф', color="#dacb00") #Леда
 define ohrana = Character('Охранник', color="#dacb00") # умбриэль
-define it = Character('Сисадмин', color="#dacb00") #Denis - Russian male
-define artem = Character('Артём', color="#dacb00") # Arnav – Empathetic Voice
-define arina = Character('Арина', color="#dacb00") # Kate - Human
-define edik = Character('Эдик', color="#dacb00") # Boy Docu – Youthful Tagalog
+define it = Character('Сисадмин', color="#dacb00") #Япет
+define artem = Character('Артём', color="#dacb00") # Харон
+define arina = Character('Арина', color="#dacb00") # Ахернар
+define edik = Character('Эдик', color="#dacb00") # Ахирд
 define veduschiy = Character('Ведущий', color="#dacb00") # Харон
 define turniket = Character('Турникет', color="#dacb00") # ChatGPT
-define sekretarsha = Character('Секретарша', color="#dacb00") # Julia - German female
-define alina = Character('Алина Эдуардовна', color="#dacb00")  # Nadia
+define sekretarsha = Character('Секретарша', color="#dacb00") # Леда
+define alina = Character('Алина Эдуардовна', color="#dacb00")  # Зефир
 define clara = Character('Клара', color="#ffffff", image="charecter/clara/clara_neutral") #Ахернар
 define perehod_diss = Dissolve(0.4)
 define fish_list = ["yaz", "sazan", "jereh", "golavl", "vyun", "elec", "gustera", "shuka", "okun", "ukleyka", "plotva", "karas"]

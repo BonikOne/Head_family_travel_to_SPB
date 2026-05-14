@@ -10331,8 +10331,8 @@ translate english strings:
     new "Can of beer"
 
     # game/script.rpy:16686
-    old "Десять рублей"
-    new "Ten rubles"
+    old "Деньги"
+    new "Money"
 
     # game/script.rpy:17070
     old "Перезапустить игру еще раз"

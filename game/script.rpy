@@ -16705,12 +16705,15 @@ label chess_win:
             shahmatist1 "Я думал ты выберешь что-то получше..."
             $ add_item_to_inventory("beer")
             $ beer_taken = True 
-        "Десять рублей":
+        "Деньги":
             $ start_dialog()
             $ _preferences.afm_enable = True 
             voice "audio/voices/shahmatist1/22.mp3"
             shahmatist1 "За такой великолепный мат я бы дал тебе больше, но бюджет нашего турнира ограничен."
-            $ money += 10    
+            if slojnost_igry == "easy":
+                $ money += 50
+            else:
+                $ money += 20    
     $ _preferences.afm_enable = True 
     voice "audio/voices/shahmatist1/23.mp3"
     shahmatist1 "Сыграем еще?"
@@ -16792,7 +16795,7 @@ label password:
         $ password = renpy.input("Введите пароль:")
         if slojnost_igry == "easy":
             $ correct_password = correct_easy_password
-        if password == correct_password:
+        if password == "комод" or password == "pear" or password == "поставщик":
             $ block_ui = True
             $ start_dialog()
             $ _preferences.afm_enable = True 

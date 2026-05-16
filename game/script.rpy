@@ -1,33 +1,33 @@
 ﻿# Определение персонажей игры.
-define Vika = Character('Вика', color="#815f01", image="charecter/Vika/vika") #Лаомедея
-define diller = Character('Диллер', color="#47ff0f") # Умбриель
-define shahmatist1 = Character('Первый шахматист', color="#815f01", image="charecter/shahmatist1/ded") # Шедар
-define shahmatist2 = Character('Второй шахматист', color="#815f01", image="charecter/shahmatist2/shahmatist2") # Садачбия
-define Medsestra = Character('Медсестра', color="#ffffff") # Нахуй не нужна
-define chingis = Character('Чингыс', color="#e5ff00") #Алнилам
-define vitya = Character('Витя', color="#003cff") #Алнилам
-define nobody = Character('Неизвестный', color="#ffffff") # Anna Sokolova
-define operator = Character('Оператор', color="#ffffff") # Isla Skye
-define nachalnik = Character('Начальник', color="#ffffff") #Альгениб
-define maker = Character('Создатель', color="#dacb00") #Зубенельгенуби
-define ment = Character('Полицейский', color="#dacb00") # Расалгети
-define barmen = Character('Бармен', color="#dacb00") # Пульчеррима
-define fishman = Character('Продавец рыбы', color="#dacb00") # Орус
-define posetitel = Character('Посетитель', color="#dacb00") # Коре
-define teacher = Character('Учитель', color="#dacb00", image="charecter/masha/masha") #Деспина 
-define Voice1 = Character('Голос 1', color="#dacb00") # Энцелад
-define Voice2 = Character('Голос 2', color="#dacb00") #Деспина 
-define model = Character('Фотограф', color="#dacb00") #Леда
-define ohrana = Character('Охранник', color="#dacb00") # умбриэль
-define it = Character('Сисадмин', color="#dacb00") #Япет
-define artem = Character('Артём', color="#dacb00") # Харон
-define arina = Character('Арина', color="#dacb00") # Ахернар
-define edik = Character('Эдик', color="#dacb00") # Ахирд
-define veduschiy = Character('Ведущий', color="#dacb00") # Харон
-define turniket = Character('Турникет', color="#dacb00") # ChatGPT
-define sekretarsha = Character('Секретарша', color="#dacb00") # Леда
-define alina = Character('Алина Эдуардовна', color="#dacb00")  # Зефир
-define clara = Character('Клара', color="#ffffff", image="charecter/clara/clara_neutral") #Ахернар
+define Vika = Character(_("Вика"), color="#815f01", image="charecter/Vika/vika") #Лаомедея
+define diller = Character(_("Диллер"), color="#47ff0f") # Умбриель
+define shahmatist1 = Character(_("Первый шахматист"), color="#815f01", image="charecter/shahmatist1/ded") # Шедар
+define shahmatist2 = Character(_("Второй шахматист"), color="#815f01", image="charecter/shahmatist2/shahmatist2") # Садачбия
+define Medsestra = Character(_("Медсестра"), color="#ffffff") # Нахуй не нужна
+define chingis = Character(_("Чингыс"), color="#e5ff00") #Алнилам
+define vitya = Character(_("Витя"), color="#003cff") #Алнилам
+define nobody = Character(_("Неизвестный"), color="#ffffff") # Anna Sokolova
+define operator = Character(_("Оператор"), color="#ffffff") # Isla Skye
+define nachalnik = Character(_("Начальник"), color="#ffffff") #Альгениб
+define maker = Character(_("Создатель"), color="#dacb00") #Зубенельгенуби
+define ment = Character(_("Полицейский"), color="#dacb00") # Расалгети
+define barmen = Character(_("Бармен"), color="#dacb00") # Пульчеррима
+define fishman = Character(_("Продавец рыбы"), color="#dacb00") # Орус
+define posetitel = Character(_("Посетитель"), color="#dacb00") # Коре
+define teacher = Character(_("Учитель"), color="#dacb00", image="charecter/masha/masha") #Деспина 
+define Voice1 = Character(_("Голос 1"), color="#dacb00") # Энцелад
+define Voice2 = Character(_("Голос 2"), color="#dacb00") #Деспина 
+define model = Character(_("Фотограф"), color="#dacb00") #Леда
+define ohrana = Character(_("Охранник"), color="#dacb00") # умбриэль
+define it = Character(_("Сисадмин"), color="#dacb00") #Япет
+define artem = Character(_("Артём"), color="#dacb00") # Харон
+define arina = Character(_("Арина"), color="#dacb00") # Ахернар
+define edik = Character(_("Эдик"), color="#dacb00") # Ахирд
+define veduschiy = Character(_("Ведущий"), color="#dacb00") # Харон
+define turniket = Character(_("Турникет"), color="#dacb00") # ChatGPT
+define sekretarsha = Character(_("Секретарша"), color="#dacb00") # Леда
+define alina = Character(_("Алина Эдуардовна"), color="#dacb00")  # Зефир
+define clara = Character(_("Клара"), color="#ffffff", image="charecter/clara/clara_neutral") #Ахернар
 define perehod_diss = Dissolve(0.4)
 define fish_list = ["yaz", "sazan", "jereh", "golavl", "vyun", "elec", "gustera", "shuka", "okun", "ukleyka", "plotva", "karas"]
 define config.adv_nvl_transition = None
@@ -55,7 +55,15 @@ default eyes_color = "default"
 default inin_pressed = False
 default out_pressed = False
 default block_ui = False
-default days = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
+default days = [
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+    "Воскресенье"
+]
 default day_index = 5
 default day_name = days[day_index]
 default clicks_enabled = True
@@ -132,47 +140,47 @@ default question5 = ""
 default first_dialog = True
 default i_ask_recept = False
 default quest_list = [
-    {"text": "Поговорить с витей о сне", "available": False, "done": False, "checked": False},
-    {"text": "Разблокировать компьютер", "available": False, "done": False, "checked": False},
-    {"text": "Найти деньги на переезд", "available": False, "done": False, "checked": False},
-    {"text": "Сдать квартиру", "available": False, "done": False, "checked": False},
-    {"text": "Убрать банер", "available": False, "done": False, "checked": False},
-    {"text": "Починить розетку", "available": False, "done": False, "checked": False},
-    {"text": "Решить судоку", "available": False, "done": False, "checked": False},
-    {"text": "Купить продукты для лазаньи", "available": False, "done": False, "checked": False},
-    {"text": "Придумать как залезть в витин ящик", "available": False, "done": False, "checked": False},
-    {"text": "Уволиться с работы", "available": False, "done": False, "checked": False},
-    {"text": "Придумать как выиграть в кубик в казино", "available": False, "done": False, "checked": False},
-    {"text": "Придумать как выиграть в рулетку в казино", "available": False, "done": False, "checked": False},
-    {"text": "Сказать вите, что все дела сделаны", "available": False, "done": False, "checked": False},
-    {"text": "Выиграть в свою игру", "available": False, "done": False, "checked": False},
-    {"text": "Купить билеты", "available": False, "done": False, "checked": False},
-    {"text": "Снять квартиру", "available": False, "done": False, "checked": False},
-    {"text": "Приготовить лазанью", "available": False, "done": False, "checked": False},
-    {"text": "Поехать в полицию", "available": False, "done": False, "checked": False},
-    {"text": "Принести пиво с рыбой", "available": False, "done": False, "checked": False},
-    {"text": "Выловить рыбу по списку", "available": False, "done": False, "checked": False},
-    {"text": "Разобрать папки", "available": False, "done": False, "checked": False},
-    {"text": "Сходить в школу", "available": False, "done": False, "checked": False},
-    {"text": "Найти тайник", "available": False, "done": False, "checked": False},
-    {"text": "Отнести документы", "available": False, "done": False, "checked": False},
-    {"text": "Найти как отмазаться от вечера", "available": False, "done": False, "checked": False},
-    {"text": "Подменить клару на съемке", "available": False, "done": False, "checked": False},
-    {"text": "Отвязаться от мента", "available": False, "done": False, "checked": False},
-    {"text": "Поговорить с Витей", "available": False, "done": False, "checked": False},
-    {"text": "Поехать на работу", "available": False, "done": False, "checked": False},
-    {"text": "Узнать рецепт напитка", "available": False, "done": False, "checked": False},
-    {"text": "Починить лифт", "available": False, "done": False, "checked": False},
-    {"text": "Вскрыть пароль", "available": False, "done": False, "checked": False},
-    {"text": "Доделать проект Артёма", "available": False, "done": False, "checked": False},
-    {"text": "Найти сахар", "available": False, "done": False, "checked": False},
-    {"text": "Найти алкоголь", "available": False, "done": False, "checked": False},
-    {"text": "Пройти тест сисадмина", "available": False, "done": False, "checked": False},
-    {"text": "Принести боссу напиток", "available": False, "done": False, "checked": False},
-    {"text": "Придумать как попасть в эмерген", "available": False, "done": False, "checked": False},
-    {"text": "Найти доказательства", "available": False, "done": False, "checked": False},
-    {"text": "Поговорить с Витей", "available": False, "done": False, "checked": False},
-    {"text": "Найти паспорт", "available": False, "done": False, "checked": False},
+    {"text": _("Поговорить с витей о сне"), "available": False, "done": False, "checked": False},
+    {"text": _("Разблокировать компьютер"), "available": False, "done": False, "checked": False},
+    {"text": _("Найти деньги на переезд"), "available": False, "done": False, "checked": False},
+    {"text": _("Сдать квартиру"), "available": False, "done": False, "checked": False},
+    {"text": _("Убрать банер"), "available": False, "done": False, "checked": False},
+    {"text": _("Починить розетку"), "available": False, "done": False, "checked": False},
+    {"text": _("Решить судоку"), "available": False, "done": False, "checked": False},
+    {"text": _("Купить продукты для лазаньи"), "available": False, "done": False, "checked": False},
+    {"text": _("Придумать как залезть в витин ящик"), "available": False, "done": False, "checked": False},
+    {"text": _("Уволиться с работы"), "available": False, "done": False, "checked": False},
+    {"text": _("Придумать как выиграть в кубик в казино"), "available": False, "done": False, "checked": False},
+    {"text": _("Придумать как выиграть в рулетку в казино"), "available": False, "done": False, "checked": False},
+    {"text": _("Сказать вите, что все дела сделаны"), "available": False, "done": False, "checked": False},
+    {"text": _("Выиграть в свою игру"), "available": False, "done": False, "checked": False},
+    {"text": _("Купить билеты"), "available": False, "done": False, "checked": False},
+    {"text": _("Снять квартиру"), "available": False, "done": False, "checked": False},
+    {"text": _("Приготовить лазанью"), "available": False, "done": False, "checked": False},
+    {"text": _("Поехать в полицию"), "available": False, "done": False, "checked": False},
+    {"text": _("Принести пиво с рыбой"), "available": False, "done": False, "checked": False},
+    {"text": _("Выловить рыбу по списку"), "available": False, "done": False, "checked": False},
+    {"text": _("Разобрать папки"), "available": False, "done": False, "checked": False},
+    {"text": _("Сходить в школу"), "available": False, "done": False, "checked": False},
+    {"text": _("Найти тайник"), "available": False, "done": False, "checked": False},
+    {"text": _("Отнести документы"), "available": False, "done": False, "checked": False},
+    {"text": _("Найти как отмазаться от вечера"), "available": False, "done": False, "checked": False},
+    {"text": _("Подменить клару на съемке"), "available": False, "done": False, "checked": False},
+    {"text": _("Отвязаться от мента"), "available": False, "done": False, "checked": False},
+    {"text": _("Поговорить с Витей"), "available": False, "done": False, "checked": False},
+    {"text": _("Поехать на работу"), "available": False, "done": False, "checked": False},
+    {"text": _("Узнать рецепт напитка"), "available": False, "done": False, "checked": False},
+    {"text": _("Починить лифт"), "available": False, "done": False, "checked": False},
+    {"text": _("Вскрыть пароль"), "available": False, "done": False, "checked": False},
+    {"text": _("Доделать проект Артёма"), "available": False, "done": False, "checked": False},
+    {"text": _("Найти сахар"), "available": False, "done": False, "checked": False},
+    {"text": _("Найти алкоголь"), "available": False, "done": False, "checked": False},
+    {"text": _("Пройти тест сисадмина"), "available": False, "done": False, "checked": False},
+    {"text": _("Принести боссу напиток"), "available": False, "done": False, "checked": False},
+    {"text": _("Придумать как попасть в эмерген"), "available": False, "done": False, "checked": False},
+    {"text": _("Найти доказательства"), "available": False, "done": False, "checked": False},
+    {"text": _("Поговорить с Витей"), "available": False, "done": False, "checked": False},
+    {"text": _("Найти паспорт"), "available": False, "done": False, "checked": False},
 ]
 
 default higher_pressed = False
@@ -16795,7 +16803,7 @@ label password:
         $ password = renpy.input("Введите пароль:")
         if slojnost_igry == "easy":
             $ correct_password = correct_easy_password
-        if password == "комод" or password == "pear" or password == "поставщик":
+        if password == "комод" or password == "pear" or password == "поставщик"or password == "stomach":
             $ block_ui = True
             $ start_dialog()
             $ _preferences.afm_enable = True 

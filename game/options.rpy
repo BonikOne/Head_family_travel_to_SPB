@@ -203,6 +203,9 @@ init python:
     build.documentation('*.html')
     build.documentation('*.txt')
 
+init -2 python:
+    config.language = "english"
+
 
 ## Для совершения покупок в приложении требуется лицензионный ключ Google Play.
 ## Его можно найти в консоли разработчика Google Play в разделе "Монетизация" >

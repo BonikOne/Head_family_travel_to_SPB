@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 806: expected a keyword argument or child statement.
-    """textbutton _("Без звука"):
-    ^
-                                action Preference("all mute", "toggle")
-                                style "mute_all_button"""
+File "game/options.rpy", line 206: invalid syntax
+    init -2 python:
+             ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Mon Nov  3 09:02:22 2025
+Sat May 16 11:26:58 2026

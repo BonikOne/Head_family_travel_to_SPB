@@ -1,24 +1,29 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/tl/english/options.rpy", line 9, in script
-    old "Вы уверены, что хотите выйти?"
-Exception: A translation for "Вы уверены, что хотите выйти?" already exists at game/tl/english/common.rpy:1254.
+  File "game/script.rpy", line 281, in script
+    init python:
+  File "game/script.rpy", line 284, in <module>
+    renpy.change_language("english")
+TypeError: argument of type 'NoneType' is not iterable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/tl/english/options.rpy", line 9, in script
-    old "Вы уверены, что хотите выйти?"
-  File "C:\renpi\renpy-8.3.7-sdk\renpy\ast.py", line 2659, in execute
-    renpy.translation.add_string_translation(self.language, self.old, self.new, newloc)
-  File "C:\renpi\renpy-8.3.7-sdk\renpy\translation\__init__.py", line 594, in add_string_translation
-    stl.add(old, new, newloc)
-  File "C:\renpi\renpy-8.3.7-sdk\renpy\translation\__init__.py", line 534, in add
-    raise Exception("A translation for \"{}\" already exists at {}:{}.".format(
-Exception: A translation for "Вы уверены, что хотите выйти?" already exists at game/tl/english/common.rpy:1254.
+  File "game/script.rpy", line 281, in script
+    init python:
+  File "C:\renpi\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\renpi\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 284, in <module>
+    renpy.change_language("english")
+  File "C:\renpi\renpy-8.3.7-sdk\renpy\translation\__init__.py", line 784, in change_language
+    renpy.style.restore(style_backup) # @UndefinedVariable
+  File "style.pyx", line 841, in renpy.style.restore
+TypeError: argument of type 'NoneType' is not iterable
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.7.25031702
 Travel to SPB 1.0
-Fri May  8 09:18:19 2026
+Sat May 16 11:23:58 2026

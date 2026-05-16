@@ -10028,7 +10028,7 @@ translate english strings:
 
     # game/script.rpy:2426
     old "Как мне починить розетку?"
-    new "How do I fix the outlet?"
+    new "How do I fix the socket?"
 
     # game/script.rpy:2426
     old "Как мне убрать банер?"
@@ -10100,7 +10100,7 @@ translate english strings:
 
     # game/script.rpy:5665
     old "Попросить починить розетку"
-    new "Ask to fix the outlet"
+    new "Ask to fix the socket"
 
     # game/script.rpy:5665
     old "Попросить убрать банер"
@@ -10372,3 +10372,477 @@ translate english strings:
 
     old "Живите и дальше так же счастливо."
     new "Live happily ever after."
+
+    old "Вика"
+    new "Vika"
+
+    old "Диллер"
+    new "Dealer"
+
+    old "Первый шахматист"
+    new "First Chess Player"
+
+    old "Второй шахматист"
+    new "Second Chess Player"
+
+    old "Медсестра"
+    new "Nurse"
+
+    old "Чингыс"
+    new "Chingis"
+
+    old "Витя"
+    new "Vitya"
+
+    old "Неизвестный"
+    new "Unknown"
+
+    old "Оператор"
+    new "Operator"
+
+    old "Начальник"
+    new "Boss"
+
+    old "Создатель"
+    new "Creator"
+
+    old "Полицейский"
+    new "Police Officer"
+
+    old "Бармен"
+    new "Bartender"
+
+    old "Продавец рыбы"
+    new "Fish Seller"
+
+    old "Посетитель"
+    new "Visitor"
+
+    old "Учитель"
+    new "Teacher"
+
+    old "Голос 1"
+    new "Voice 1"
+
+    old "Голос 2"
+    new "Voice 2"
+
+    old "Фотограф"
+    new "Photographer"
+
+    old "Охранник"
+    new "Guard"
+
+    old "Сисадмин"
+    new "Sysadmin"
+
+    old "Артём"
+    new "Artyom"
+
+    old "Арина"
+    new "Arina"
+
+    old "Эдик"
+    new "Edik"
+
+    old "Ведущий"
+    new "Host"
+
+    old "Турникет"
+    new "Turnstile"
+
+    old "Секретарша"
+    new "Secretary"
+
+    old "Алина Эдуардовна"
+    new "Alina Eduardovna"
+
+    old "Клара"
+    new "Clara"
+
+    old "Что вы хотите делать?"
+    new "What do you want to do?"  
+
+    old "Поспать"
+    new "Sleep"
+
+    old "Передумать"
+    new "Nothing"
+
+    old "Интеллект: [intellect]"
+    new "Intelligence: [intellect]"
+
+    old "Деньги: [money]₽"
+    new "Money: [money]₽"
+
+    old "Понедельник"
+    new "Monday"
+
+    old "Вторник"
+    new "Tuesday"
+
+    old "Среда"
+    new "Wednesday"
+
+    old "Четверг"
+    new "Thursday"
+
+    old "Пятница"
+    new "Friday"
+
+    old "Суббота"
+    new "Saturday"
+
+    old "Воскресенье"
+    new "Sunday"
+
+    old "Что вы хотите посмотреть?"
+    new "What do you want to see?"
+
+    old "Посмотреть клипы BST"
+    new "Watch BST music videos"
+
+    old "Посмотреть 'Битву магов'"
+    new "Watch 'Battle of the Magicians'"
+
+    old "Поговорить с витей о сне"
+    new "Talk to Vitya about the dream"
+
+    old "Разблокировать компьютер"
+    new "Unlock the computer"
+
+    old "Найти деньги на переезд"
+    new "Find money for moving"
+
+    old "Сдать квартиру"
+    new "Rent out the apartment"
+
+    old "Убрать банер"
+    new "Remove the banner"
+
+    old "Починить розетку"
+    new "Fix the socket"
+
+    old "Решить судоку"
+    new "Solve sudoku"
+
+    old "Купить продукты для лазаньи"
+    new "Buy ingredients for lasagna"
+
+    old "Придумать как залезть в витин ящик"
+    new "Figure out how to access Vitya’s drawer"
+
+    old "Уволиться с работы"
+    new "Quit the job"
+
+    old "Придумать как выиграть в кубик в казино"
+    new "Figure out how to win dice in the casino"
+
+    old "Придумать как выиграть в рулетку в казино"
+    new "Figure out how to win roulette in the casino"
+
+    old "Сказать вите, что все дела сделаны"
+    new "Tell Vitya all tasks are done"
+
+    old "Выиграть в свою игру"
+    new "Win your own game"
+
+    old "Купить билеты"
+    new "Buy tickets"
+
+    old "Снять квартиру"
+    new "Rent an apartment"
+
+    old "Приготовить лазанью"
+    new "Cook lasagna"
+
+    old "Поехать в полицию"
+    new "Go to the police"
+
+    old "Принести пиво с рыбой"
+    new "Bring beer and fish"
+
+    old "Выловить рыбу по списку"
+    new "Catch fish by the list"
+
+    old "Разобрать папки"
+    new "Sort the folders"
+
+    old "Сходить в школу"
+    new "Go to school"
+
+    old "Найти тайник"
+    new "Find the stash"
+
+    old "Отнести документы"
+    new "Deliver documents"
+
+    old "Найти как отмазаться от вечера"
+    new "Find excuse for the evening"
+
+    old "Подменить клару на съемке"
+    new "Replace Clara at the shoot"
+
+    old "Отвязаться от мента"
+    new "Get rid of the cop"
+
+    old "Поговорить с Витей"
+    new "Talk to Vitya"
+
+    old "Поехать на работу"
+    new "Go to work"
+
+    old "Узнать рецепт напитка"
+    new "Find drink recipe"
+
+    old "Починить лифт"
+    new "Fix the elevator"
+
+    old "Вскрыть пароль"
+    new "Crack the password"
+
+    old "Доделать проект Артёма"
+    new "Finish Artyom’s project"
+
+    old "Найти сахар"
+    new "Find sugar"
+
+    old "Найти алкоголь"
+    new "Find alcohol"
+
+    old "Пройти тест сисадмина"
+    new "Pass sysadmin test"
+
+    old "Принести боссу напиток"
+    new "Bring drink to the boss"
+
+    old "Придумать как попасть в эмерген"
+    new "Figure out how to get into Emergen"
+
+    old "Найти доказательства"
+    new "Find evidence"
+
+    old "Найти паспорт"
+    new "Find passport"
+
+    old "Инвентарь"
+    new "Inventory"
+
+    old "Head Family: Travel To SPB"
+    new "Head Family: Travel to SPB"
+
+    old "Разработчик - Иван Тамбовцев"
+    new "Developer - Ivan Tambovtsev"
+
+    old "Гейм-дизайнер - Иван Тамбовцев"
+    new "Game Designer - Ivan Tambovtsev"
+
+    old "Автор идеи - Иван Тамбовцев"
+    new "Concept Author - Ivan Tambovtsev"
+
+    old "Продюсер - Иван Тамбовцев"
+    new "Producer - Ivan Tambovtsev"
+
+    old "Программист - Иван Тамбовцев"
+    new "Programmer - Ivan Tambovtsev"
+
+    old "Сценарист - Иван Тамбовцев"
+    new "Writer - Ivan Tambovtsev"
+
+    old "Художник - Иван Тамбовцев"
+    new "Artist - Ivan Tambovtsev"
+
+    old "Композитор - Иван Тамбовцев"
+    new "Composer - Ivan Tambovtsev"
+
+    old "Звукорежиссер - Иван Тамбовцев"
+    new "Sound Designer - Ivan Tambovtsev"
+
+    old "Тестировщик - Иван Тамбовцев"
+    new "Tester - Ivan Tambovtsev"
+
+    old "Дизайн уровней - Иван Тамбовцев"
+    new "Level Design - Ivan Tambovtsev"
+
+    old "Дизайн интерфейса - Иван Тамбовцев"
+    new "UI Design - Ivan Tambovtsev"
+
+    old "Маркетолог - Иван Тамбовцев"
+    new "Marketing - Ivan Tambovtsev"
+
+    old "Менеджер сообщества - Иван Тамбовцев"
+    new "Community Manager - Ivan Tambovtsev"
+
+    old "Монтажёр - Иван Тамбовцев"
+    new "Editor - Ivan Tambovtsev"
+
+    old "Переводчик - Иван Тамбовцев"
+    new "Translator - Ivan Tambovtsev"
+
+    old "Оптимизатор - Иван Тамбовцев"
+    new "Optimizer - Ivan Tambovtsev"
+
+    old "Технический директор - Иван Тамбовцев"
+    new "Technical Director - Ivan Tambovtsev"
+
+    old "Креативный директор - Иван Тамбовцев"
+    new "Creative Director - Ivan Tambovtsev"
+
+    old "Главный нарративный дизайнер - Иван Тамбовцев"
+    new "Lead Narrative Designer - Ivan Tambovtsev"
+
+    old "Дизайнер персонажей - Иван Тамбовцев"
+    new "Character Designer - Ivan Tambovtsev"
+
+    old "Концепт-артист - Иван Тамбовцев"
+    new "Concept Artist - Ivan Tambovtsev"
+
+    old "Геймплей-программист - Иван Тамбовцев"
+    new "Gameplay Programmer - Ivan Tambovtsev"
+
+    old "Световой художник - Иван Тамбовцев"
+    new "Lighting Artist - Ivan Tambovtsev"
+
+    old "Дизайнер достижений - Иван Тамбовцев"
+    new "Achievement Designer - Ivan Tambovtsev"
+
+    old "Скрипт-райтер - Иван Тамбовцев"
+    new "Script Writer - Ivan Tambovtsev"
+
+    old "Генератор случайных идей - Иван Тамбовцев"
+    new "Random Idea Generator - Ivan Tambovtsev"
+
+    old "Специалист по балансу - Иван Тамбовцев"
+    new "Balance Designer - Ivan Tambovtsev"
+
+    old "Создатель атмосферы - Иван Тамбовцев"
+    new "Atmosphere Creator - Ivan Tambovtsev"
+
+    old "Хранитель лора - Иван Тамбовцев"
+    new "Lore Keeper - Ivan Tambovtsev"
+
+    old "Вдохновитель - Иван Тамбовцев"
+    new "Inspiration Source - Ivan Tambovtsev"
+
+    old "Босс багов - Иван Тамбовцев"
+    new "Bug Boss - Ivan Tambovtsev"
+
+    old "Мастер Ctrl+C / Ctrl+V - Иван Тамбовцев"
+    new "Ctrl+C / Ctrl+V Master - Ivan Tambovtsev"
+
+    old "Тот, кто всё это придумал - Иван Тамбовцев"
+    new "The One Who Thought of Everything - Ivan Tambovtsev"
+
+    old "Директор по крикам в монитор - Иван Тамбовцев"
+    new "Director of Screaming at the Monitor - Ivan Tambovtsev"
+
+    old "Главный по прокрастинации - Иван Тамбовцев"
+    new "Chief Procrastination Officer - Ivan Tambovtsev"
+
+    old "Офисный кактус - Иван Тамбовцев"
+    new "Office Cactus - Ivan Tambovtsev"
+
+    old "Человек-оркестр - Иван Тамбовцев"
+    new "One-Man Orchestra - Ivan Tambovtsev"
+
+    old "Властелин кода - Иван Тамбовцев"
+    new "Lord of Code - Ivan Tambovtsev"
+
+    old "Повелитель геймдизайна - Иван Тамбовцев"
+    new "Master of Game Design - Ivan Tambovtsev"
+
+    old "Архитектор миров - Иван Тамбовцев"
+    new "World Architect - Ivan Tambovtsev"
+
+    old "Верховный разработчик - Иван Тамбовцев"
+    new "Supreme Developer - Ivan Tambovtsev"
+
+    old "Легенда одиночной разработки - Иван Тамбовцев"
+    new "Legend of Solo Development - Ivan Tambovtsev"
+
+    old "Роли озвучивали"
+    new "Voice Acting"
+
+    old "Спасибо за то что играли!"
+    new "Thank you for playing!"
+
+    old "Вика - Larisa Actrisa"
+    new "Vika - Ivan Tambovtsev"
+
+    old "Витя - Callum"
+    new "Vitya - Ivan Tambovtsev"
+
+    old "Клара - Anna Sokolova"
+    new "Clara - Ivan Tambovtsev"
+
+    old "Алина - Nadia"
+    new "Alina - Ivan Tambovtsev"
+
+    old "Арина - Kate - Human"
+    new "Arina - Ivan Tambovtsev"
+
+    old "Артём - Arnav – Empathetic Voice"
+    new "Artyom - Ivan Tambovtsev"
+
+    old "Бармен - Boy Advertising: Radio Ads & Audio"
+    new "Bartender - Ivan Tambovtsev"
+
+    old "Чингыс - Kazım Emirhan Erdem"
+    new "Chingis - Ivan Tambovtsev"
+
+    old "Диллер - Nikolay"
+    new "Dealer - Ivan Tambovtsev"
+
+    old "Эдик - Boy Docu – Youthful Tagalog"
+    new "Edik - Ivan Tambovtsev"
+
+    old "Рыбак - Olivier D"
+    new "Fisherman - Ivan Tambovtsev"
+
+    old "Сисадмин - Denis - Russian male"
+    new "Sysadmin - Ivan Tambovtsev"
+
+    old "Создатель - Chris"
+    new "Creator - Ivan Tambovtsev"
+
+    old "Мент - Leo Fioravante"
+    new "Police Officer - Ivan Tambovtsev"
+
+    old "Фотограф - Modulated French female voice"
+    new "Photographer - Ivan Tambovtsev"
+
+    old "Начальник - Deok su"
+    new "Boss - Ivan Tambovtsev"
+
+    old "Охранник - Vasiliy"
+    new "Guard - Ivan Tambovtsev"
+
+    old "Оператор - Isla Skye"
+    new "Operator - Ivan Tambovtsev"
+
+    old "Секретарша - Julia - German female"
+    new "Secretary - Ivan Tambovtsev"
+
+    old "Первый шахматист - Vasiliy"
+    new "First Chess Player - Ivan Tambovtsev"
+
+    old "Второй шахматист - Galway man"
+    new "Second Chess Player - Ivan Tambovtsev"
+
+    old "Учитель - Elegant Russian Narrator"
+    new "Teacher - Ivan Tambovtsev"
+
+    old "Турникет - ChatGPT"
+    new "Turnstile - Ivan Tambovtsev"
+
+    old "Ведущий - James - Calm & comforting male voice"
+    new "Host - Ivan Tambovtsev"
+
+    old "Начальник полиции - Papazon - Japanese Comedy Villain"
+    new "Police Chief - Ivan Tambovtsev"
+
+    old "Взять"
+    new "Take"
+
+    old "Вес: {ves} г"
+    new "Weight: {ves} g"
